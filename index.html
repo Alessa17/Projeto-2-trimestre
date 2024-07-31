@@ -4,123 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
     <link rel="stylesheet" href="style.css">
+    <title>Você decide o Campo Literário</title>
 </head>
 
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do ano <span></span></h2>
-        <div class="conteudo">
-            <div class="botoes">
-                <button class="botao ativo">Passar no vestibular</button>
-                <button class="botao">Aprender um novo idioma</button>
-                <button class="botao">Ler um novo livro</button>
-                <button class="botao">Viajar</button>
-            </div>
-            <div class="abas-textos">
-                <div class="aba-conteudo ativo">
-                    <h3 class="aba-conteudo-titulo-principal">Estude para o vestibular:</h3>
-                    <h4 class="aba-conteudo-titulo-secundario"> Tempo para completar o objetivo:</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">270</p>
-                            <p class="contador-digito-texto">Dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">4</p>
-                            <p class="contador-digito-texto">Horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">30</p>
-                            <p class="contador-digito-texto">Minutos</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">2</p>
-                            <p class="contador-digito-texto">Segundos</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo ativo">
-                    <h3 class="aba-conteudo-titulo-principal"> Estude um idioma:</h3>
-                    <h4 class="aba-conteudo-titulo-secundario"> Tempo para completar o objetivo:</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">2</p>
-                            <p class="contador-digito-texto">Dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">48</p>
-                            <p class="contador-digito-texto">Horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">60</p>
-                            <p class="contador-digito-texto">Minutos</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">2</p>
-                            <p class="contador-digito-texto">Segundos</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Pratique a leitura:</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">10</p>
-                            <p class="contador-digito-texto">Dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">48</p>
-                            <p class="contador-digito-texto">Horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">60</p>
-                            <p class="contador-digito-texto">Minutos</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">2</p>
-                            <p class="contador-digito-texto">Segundos</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Guarde dinheiro:</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador">
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">200</p>
-                            <p class="contador-digito-texto">Dias</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">48</p>
-                            <p class="contador-digito-texto">Horas</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">60</p>
-                            <p class="contador-digito-texto">Minutos</p>
-                        </div>
-                        <div class="contador-digito">
-                            <p class="contador-digito-numero">2</p>
-                            <p class="contador-digito-texto">Segundos</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
-                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                    <div class="contador"></div>
-                </div>
-            </div>
+    <div class="caixa-principal">
+        <h1>Você decide o Campo Literário</h1>
+        <div class="tela-inicial">
+            <p>O campo de atuação relativo à participação em situações de leitura, 
+            fruição e produção de textos literários e artísticos, representativos da diversidade cultural e linguística, 
+            que favorece experiências estéticas.
+            </p>
+            <button class="iniciar-btn">Iniciar</button>
         </div>
-    </section>
-    <script src="main.js"></script>
-</body>
-</html>
-    </section>
-    <script src="main.js"></script>
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
+            <button class="novamente-btn">Jogar novamente</button>
+        </div>
+    </div>
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
 
 </html>
